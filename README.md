@@ -4,7 +4,7 @@ This project is inspired by the [Machine Learning project list](https://docs.goo
 
 ## Table of Contents
 - [Previous Configurations](#previous-configurations)
-- [EDA](#eda)
+- [Data Preprocessing](#data-preprocessing)
 - [Feature Engineering](#feature-engineering)
 - [Model](#model)
 - [Contributing](#contributing)
@@ -42,8 +42,9 @@ The `.env` file should include:
 
 ```
 
-## EDA
+## Data Preprocessing
 
+This line cleans the text in the data['text'] column by removing Twitter-style mentions (e.g., @user), hashtags (e.g., #topic), and URLs using a regular expression, and stores the cleaned version in a new column called cleaned_text.
 
 ## Feature Engineering
 
